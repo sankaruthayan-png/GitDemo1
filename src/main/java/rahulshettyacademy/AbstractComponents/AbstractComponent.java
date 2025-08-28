@@ -29,8 +29,9 @@ public class AbstractComponent {
 	
 	@FindBy(css = "[routerlink*='myorders']")
 	WebElement orderHeader;
- System.out.println("Test comit);
+ System.out.println("Test comit");
 //adding
+ // adding extra comment
 	public void waitForElementToAppear(By findBy) {
 
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
