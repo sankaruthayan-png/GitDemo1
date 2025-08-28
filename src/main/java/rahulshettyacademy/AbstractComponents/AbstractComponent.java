@@ -29,7 +29,7 @@ public class AbstractComponent {
 	
 	@FindBy(css = "[routerlink*='myorders']")
 	WebElement orderHeader;
-
+ System.out.println("Test comit);
 
 	public void waitForElementToAppear(By findBy) {
 
