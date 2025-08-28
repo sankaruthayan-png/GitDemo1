@@ -52,7 +52,16 @@ public class LandingPage extends AbstractComponent{
 		waitForWebElementToAppear(errorMessage);
 		return errorMessage.getText();
 	}
-	
+	public String getErrorMessage1()
+	{
+		waitForWebElementToAppear(errorMessage);
+		return errorMessage.getText();
+	}
+	public String getErrorMessage2()
+	{
+		waitForWebElementToAppear(errorMessage);
+		return errorMessage.getText();
+	}
 	public void goTo()
 	{
 		driver.get("https://rahulshettyacademy.com/client");
