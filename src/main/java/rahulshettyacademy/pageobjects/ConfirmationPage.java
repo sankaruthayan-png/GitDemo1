@@ -29,5 +29,15 @@ public class ConfirmationPage extends AbstractComponent{
 		return confirmationMessage.getText();
 	}
 	
+	public String getConfirmationMessage1()
+	{
+		CheckoutPage cp = new CheckoutPage(driver);	
+		return confirmationMessage.getText();
+	}
+	public String getConfirmationMessage3()
+	{
+		CheckoutPage cp = new CheckoutPage(driver);	
+		return confirmationMessage.getText();
+	}
 	
 }
